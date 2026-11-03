@@ -2,7 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import logoMark from "@/logo/done-buildcore-logo.jpg";
 
-export function Logo({ tone = "light" }: { tone?: "light" | "dark" }) {
+export function Logo({
+  tone = "light",
+  priority = false,
+}: {
+  tone?: "light" | "dark";
+  priority?: boolean;
+}) {
   const word = tone === "light" ? "text-white" : "text-navy";
   const sub = tone === "light" ? "text-white/70" : "text-navy/60";
 
@@ -13,7 +19,7 @@ export function Logo({ tone = "light" }: { tone?: "light" | "dark" }) {
         alt=""
         width={72}
         height={72}
-        priority
+        priority={priority}
         className="h-16 w-16 shrink-0 object-contain"
       />
       <span className="leading-none">
