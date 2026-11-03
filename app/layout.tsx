@@ -29,6 +29,11 @@ export const metadata: Metadata = {
   description:
     "Done BuildCore Construction is a general construction and engineering practice. We are Building The Future And One Strong Foundation At A Time.",
   applicationName: "Done BuildCore Construction",
+  icons: {
+    icon: [{ url: "/icon.jpg", type: "image/jpeg" }],
+    apple: [{ url: "/apple-icon.jpg", type: "image/jpeg" }],
+    shortcut: ["/favicon.jpg"],
+  },
 };
 
 export const viewport: Viewport = {
