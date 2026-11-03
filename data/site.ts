@@ -22,11 +22,13 @@ export const projectTypes = [
 ];
 
 export const contactDetails = {
-  email: "enquiries@donebuildcore.example",
+  email: "thomaskelvinscott556@gmail.com",
   phone: "+00 000 000 0000",
   phoneHref: "tel:+00000000000",
-  location:
-    "An office address is not published on this demonstration site. Location would be confirmed directly during a real consultation.",
+  locations: [
+    { label: "Branch", place: "North Carolina, USA" },
+    { label: "Head office", place: "Texas, USA" },
+  ],
 };
 
 export const hours = [
@@ -140,7 +142,7 @@ export const faqs = [
   {
     question: "Where is the office?",
     answer:
-      "This demonstration site does not publish a real street address, licence number or map. Contact details shown here use the reserved example domain and a placeholder phone number.",
+      "Done BuildCore Construction has two locations: a branch in North Carolina, USA, and the head office in Texas, USA.",
   },
   {
     question: "Are the customer logos real clients?",

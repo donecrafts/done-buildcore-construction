@@ -25,7 +25,7 @@ export default function PrivacyPage() {
             Do not submit payment details or confidential project information. Nothing on this site is a request for that information.
           </p>
           <p>
-            Contact details use the reserved example domain and a placeholder telephone number. The site does not publish a street address.
+            Company contact is by email. The published locations are North Carolina, USA, and the head office in Texas, USA.
           </p>
         </Container>
       </section>
